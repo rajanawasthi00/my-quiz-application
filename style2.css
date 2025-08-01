@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.main2 {
+    width: 100%;
+    height: 650px;
+    background-color: rgb(98, 176, 240);
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 350px;
+    height: 360px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    margin: auto;
+    background-color: white;
+
+}
+
+.content2 {
+    width: 350px;
+    height: 360px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    margin: auto;
+    background-color: white;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+li {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+p {
+    text-transform: capitalize;
+    width: 320px;
+    font-weight: bold;
+    font-family: sans;
+}
+
+.btns {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+    margin-left: 7%;
+}
+
+.btns1 {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 7%;
+}
+
+.btn1 {
+    width: 90px;
+    height: 30px;
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.btn2 {
+    width: 85px;
+    height: 30px;
+    color: blue;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(103, 179, 250);
+    border: 1px solid blue;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: rgb(103, 179, 250);
+}
+
+.btn2:hover {
+    background-color: white;
+    border: 1px solid blue;
+    color: black;
+}
+
+.king {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+.sum {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans;
+    margin-top: 30px;
+    margin-left: 20px;
+}
