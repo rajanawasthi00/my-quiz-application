@@ -53,6 +53,57 @@
         </div>
     </div>
 </body>
-<script src="script7.js"></script>
+<script>
+    var tick = document.querySelector(".tick");
+var next = document.querySelector(".next");
+var timer = document.querySelector("#timer");
+var wrong1 = document.querySelector(".wrong1");
+var wrong2 = document.querySelector(".wrong2");
+var wrong3 = document.querySelector(".wrong3");
+var box1 = document.querySelector(".ans1");
+var box2 = document.querySelector(".ans2");
+var box3 = document.querySelector(".ans3");
+var box4 = document.querySelector(".ans4");
+
+box1.addEventListener("click", function () {
+  tick.textContent = "✅";
+  box1.style.background = "#9dff9d";
+});
+box2.addEventListener("click", function () {
+  wrong1.textContent = "❌";
+  box2.style.background = "#ff9d9d";
+  tick.textContent = "✅";
+  box1.style.background = "#9dff9d";
+});
+box3.addEventListener("click", function () {
+  wrong2.textContent = "❌";
+  box3.style.background = "#ff9d9d";
+  box1.style.background = "#9dff9d";
+  tick.textContent = "✅";
+});
+box4.addEventListener("click", function () {
+  wrong3.textContent = "❌";
+  box4.style.background = "#ff9d9d";
+  box1.style.background = "#9dff9d";
+  tick.textContent = "✅";
+});
+
+next.addEventListener("click", function () {
+  location.href = "index8.html";
+});
+
+// feture of countdown 
+var timer = document.querySelector("#timer")
+var a = 10;
+let settimer = setInterval(() => {
+  a--;
+  timer.textContent = a;
+  if (a < 1) {
+    clearInterval(settimer);
+    window.location.assign("index8.html")
+
+  }
+}, 1000)
+</script>
 
 </html>
